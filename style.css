@@ -98,7 +98,7 @@ section {
     letter-spacing: 1px;
     font-weight: 600;
     border-radius: 10px;
-    color: #34bc54;
+    color: #9b000a;
     font-size: 1.5em;
 }
 
@@ -117,7 +117,7 @@ section {
     width: 45%;
     min-height: 350px;
     max-height: 300px;
-    background-color: rgba(184, 46, 46, 0.2);
+    background-color: rgba(241, 236, 236, 0.2);
     border-radius: 10px;
     overflow: hidden;
     transition: 1s ease;
@@ -138,7 +138,7 @@ section {
 .title {
     display: flex;
     justify-content: center;
-    color: #354aee;
+    color: #9b000a;
     font-size: 2.2em;
     font-weight: 800;
     margin-bottom: 30px;
@@ -150,7 +150,7 @@ aside ul {
 
 .highlight a {
     display: flex;
-    color: #7a877c;
+    color: #9b000a;
     border: none;
     text-decoration: none;
     -webkit-transition: background 1s;
@@ -160,7 +160,7 @@ aside ul {
 }
 
 .highlight a:hover {
-    background-color: #a1a6a6;
+    background-color: #009b91;
 }
 
 .aside {
@@ -189,14 +189,14 @@ aside ul {
 
 .announcements ul a {
     font-size: 1.2em;
-    color: rgb(12, 172, 23);
+    color: black;
     font-weight: 500;
     display: inline-block;
     position: relative;
 }
 
 .announcements ul a:hover {
-    color: #dfcfd0;
+    color: #9b000a;
 }
 
 .announcements ul a:after {
@@ -207,7 +207,7 @@ aside ul {
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #9a9697;
+    background-color: #9b000a;
     transform-origin: bottom right;
     transition: transform 0.35s ease-out;
 }
@@ -221,7 +221,7 @@ aside ul {
 footer {
     width: 100%;
     padding: 40px 40px;
-    background-color: #ac3636;
+    background-color: #111;
     margin-top: 20px;
     display: flex;
     justify-content: space-around;
@@ -278,20 +278,20 @@ footer ul li {
 
 /* **************index page******************* */
 .login-nav {
-    border: 3px solid rgb(127, 231, 127);
+    border: 3px solid green;
     display: flex;
     justify-content: flex-end;
 }
 
 .login-nav ul {
-    border: 3px solid rgb(184, 20, 20);
+    border: 3px solid red;
     display: flex;
     gap: 2.5em;
     padding-right: 2em;
 }
 
 .login-nav ul li {
-    border: 3px solid rgb(130, 155, 130);
+    border: 3px solid green;
 }
 
 /* ***********Login page *********** */
@@ -299,7 +299,7 @@ footer ul li {
     min-height: 100vh;
     width: 100%;
     display: flex;
-    background-image: linear-gradient(rgba(221, 209, 209, 0.5), rgba(161, 23, 23, 0.5)),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
         url("images/estu_view.jpeg");
     display: flex;
     justify-content: center;
@@ -317,15 +317,15 @@ footer ul li {
     font-weight: 600;
     text-align: center;
     line-height: 100px;
-    color: #d98086;
+    color: #9b000a;
     user-select: none;
     border-radius: 15px 15px 0 0;
     background-image: linear-gradient(to right top,
-            #d5dfde,
-            #411a91,
-            #afd3b5,
-            #e6a579,
-            #71d5f9);
+            #009b91,
+            #3eb68f,
+            #77d086,
+            #b4e679,
+            #f9f871);
 }
 
 .login-main form {
@@ -352,14 +352,14 @@ footer ul li {
 
 .login-main form .field input:focus,
 form .field input:valid {
-    border-color: #c77b1e;
+    border-color: #009b91;
 }
 
 .login-main form .field label {
     position: absolute;
     top: 50%;
     left: 20px;
-    color: #a84141;
+    color: #999999;
     font-weight: 400;
     font-size: 17px;
     pointer-events: none;
@@ -371,7 +371,7 @@ form .field input:valid {
 form .field input:valid~label {
     top: 0%;
     font-size: 16px;
-    color: #4cbb1c;
+    color: #9b000a;
     background: #fff;
     transform: translateY(-50%);
 }
@@ -394,7 +394,7 @@ form .content .checkbox {
 form .content input {
     width: 15px;
     height: 15px;
-    background: rgb(110, 41, 41);
+    background: red;
 }
 
 form .content label {
@@ -405,11 +405,11 @@ form .content label {
 
 form .content .pass-link a,
 .login-main form .signup-link>a {
-    color: #230f95;
+    color: #9b000a;
 }
 
 form .field input[type="submit"] {
-    color: #99933c;
+    color: #9b000a;
     border: none;
     padding-left: 0;
     margin-top: -10px;
@@ -417,10 +417,10 @@ form .field input[type="submit"] {
     font-weight: 500;
     cursor: pointer;
     background-image: linear-gradient(to right top,
-            #cacece,
-            #a52c3e,
-            #040e06,
-            #9a7638,
+            #009b91,
+            #3eb68f,
+            #77d086,
+            #b4e679,
             #f9f871);
     transition: all 0.3s ease;
 }
@@ -576,7 +576,7 @@ form .signup-link a:hover {
 }
 
 .drop-menu a:hover {
-    background-color: #278b58;
+    background-color: #009b91;
     color: #fff;
 }
 
